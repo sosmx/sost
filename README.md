@@ -23,4 +23,4 @@ git push appsdeck master
 
 And that's it!
 
-The application is running at this url: https://test-flask-python.appsdeck.eu/
+The application is running at this url: https://sample-python-flask.appsdeck.eu/
