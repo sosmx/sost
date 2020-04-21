@@ -17,7 +17,7 @@ Deploying on Scalingo
 Create an application on https://scalingo.com, then:
 
 ```
-git remote add scalingo git@scalingo.com:<name_of_your_app>.git
+scalingo -a my-app git-setup 
 git push scalingo master
 ```
 
