@@ -4,11 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ez_setup = "==0.9"
 Flask = "==1.*"
-itsdangerous = "==0.24"
-MarkupSafe = "==0.23"
-Werkzeug = "==0.15.3"
 
 [dev-packages]
 
