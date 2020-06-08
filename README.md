@@ -19,11 +19,8 @@ The application is running at this url: https://sample-python-flask.scalingo.io/
 
 ## Running Locally
 
-The Docker solution does not fully work yet:
+Just start docker-compose, with the commande `up`:
 
 ```sh
-docker-compose run sample-python-flask bash
-pipenv shell
-pipenv install
-python ./app.py
+docker-compose up
 ```
