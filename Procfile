@@ -1,2 +1,2 @@
 web: python app.py
-worker: bash do
+worker: bash do.sh
