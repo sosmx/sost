@@ -1,17 +1,14 @@
-
 FROM python:3.8.2
 
 
-RUN apt-get update && apt-get install --yes unzip pipenv
+RUN apt-get update && apt-get install --yes pipenv
 
 
 WORKDIR /usr/src/app
 
 
+
 COPY ./ /usr/src/app/
-
-
-RUN unzip vcv-master.zip
 
 
 RUN pipenv lock
