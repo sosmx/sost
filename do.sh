@@ -1,8 +1,3 @@
-if [ ! -d "vcv" ]; then
-    git clone https://github.com/xsosi/vcv
-    cd vcv
-else
-    cd vcv
-fi
-
+unzip vcv-master.zip
+cd vcv-master
 python3 -m AnonXMusic
