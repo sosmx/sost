@@ -32,7 +32,6 @@ telegraph = "*"
 unidecode = "*"
 gtts = "*"
 httpx = "*"
-httpx[http2] = "*"
 gpytranslate = "*"
 yt-dlp = {git = "https://github.com/yt-dlp/yt-dlp", ref = "master"}
 youtube-search-python = {git = "https://github.com/alexmercerind/youtube-search-python", ref = "main"}
