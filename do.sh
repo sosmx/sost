@@ -1,3 +1,3 @@
-unzip vcv-master
-cd vcv-master
+unzip ZTZ-master.zip
+cd ZTZ-master
 bash start
