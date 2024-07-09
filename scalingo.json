@@ -3,5 +3,39 @@
   "description": "Sample Python web application using the Flask framework",
   "logo": "https://scalingo.com/logo.svg",
   "repository": "https://github.com/Scalingo/sample-python-flask",
-  "website": "https://sample-python-flask.scalingo.io"
+  "website": "https://sample-python-flask.scalingo.io",
+  "addons": ["scalingo-postgresql"],
+  "keywords": ["zelzal", "ai", "telegram"],
+  "stack": "container",
+  "env": {
+    "STRING_SESSION": {
+      "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 T66bot@ 〕..",
+      "required": true
+    },
+    "TG_BOT_TOKEN": {
+      "description": "تـــوكـــن البـــوت المســاعـد الخــاص بـك - مـن بـوت فـاذر〔 Botfather@ 〕..",
+      "required": true,
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
+      "required": true,
+      "value": "27455984"
+    },
+    "API_HASH": {
+      "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
+      "required": true,
+      "value": "62d5f68ce2e9189636967120220f5755"
+    },
+    "TZ": {
+      "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
+      "required": true,
+      "value": "Asia/Baghdad"
+    },
+    "ENV": {
+      "description": "لا تغيــرهـــا",
+      "required": true,
+      "value": "ANYTHING"
+    }
+  }
 }
