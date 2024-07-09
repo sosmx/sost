@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 Telethon = "*"
+flask = "*"
 telethon-session-sqlalchemy = "*"
 setuptools = "*"
 wheel = "*"
